@@ -19,9 +19,9 @@ func main (){
 	for _, m := range kelas{
 	skorAkhir := (float64 (m.NilaiTugas)*0.3) + (float64(m.NilaiUAS)*0.7)
 		if skorAkhir>= 70 {
-		fmt.Printf ("Nama: %s | Skor:%2f |Status : LULUS\n " , m.Nama, skorAkhir )
+		fmt.Printf ("Nama: %s | Skor:%.2f |Status : LULUS\n " , m.Nama, skorAkhir )
 	}else {
-		fmt.Printf ("Nama: %s | Skor:%2f |Status : BELUM LULUS\n " , m.Nama, skorAkhir )
+		fmt.Printf ("Nama: %s | Skor:%.2f |Status : BELUM LULUS\n " , m.Nama, skorAkhir )
 	}
 
 	}
